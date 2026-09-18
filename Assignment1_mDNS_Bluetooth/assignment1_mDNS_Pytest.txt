@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /work/Usman/Assignment_Solution_USA/Assignment1_mDNS_Bluetooth
+plugins: anyio-4.14.2
+collecting ... collected 10 items
+
+mDNS_Bluetooth_discovery.py::test_device_is_discoverable PASSED          [ 10%]
+mDNS_Bluetooth_discovery.py::test_correct_service_type_is_advertised PASSED [ 20%]
+mDNS_Bluetooth_discovery.py::test_ip_addresses_are_valid PASSED          [ 30%]
+mDNS_Bluetooth_discovery.py::test_hostname_ends_with_local PASSED        [ 40%]
+mDNS_Bluetooth_discovery.py::test_txt_record_mac_address_format PASSED   [ 50%]
+mDNS_Bluetooth_discovery.py::test_txt_records_contain_required_fields PASSED [ 60%]
+mDNS_Bluetooth_discovery.py::test_txt_record_serial_number_is_present PASSED [ 70%]
+mDNS_Bluetooth_discovery.py::test_txt_record_production_timestamp_format PASSED [ 80%]
+mDNS_Bluetooth_discovery.py::test_txt_record_firmware_version_format PASSED [ 90%]
+mDNS_Bluetooth_discovery.py::test_txt_record_friendly_name_matches_device_name PASSED [100%]
+
+============================== 10 passed in 0.02s ==============================
